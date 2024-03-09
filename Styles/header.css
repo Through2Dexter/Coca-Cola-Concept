@@ -1,0 +1,58 @@
+.header {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+}
+
+
+.left-section {
+  width:200px;
+
+  margin-right: 75px;
+  
+}
+
+.middle-section {
+
+  width: 400px;
+  margin-left: 00px;
+}
+.right-section {
+
+  width: 200px;
+}
+.Main-logo {
+  width: 300px;
+margin-top: 0px;
+padding-left: 20px;
+align-items: center;
+
+
+}
+.hamburger-menu {
+  width: 70px;
+ padding-left: 80px;
+ padding-top: 60px;
+ cursor: pointer;
+ 
+}
+.Home-white {
+width: 60px;
+ padding-left: 80px;
+ padding-top: 60px;
+ cursor: pointer;
+}
+.user-logo {
+  width: 50;
+  padding-top: 60px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.earth-icon {
+  width: 80px;
+  padding-top: 55px;
+  padding-left: 40px;
+  cursor: pointer;
+}

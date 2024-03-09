@@ -1,0 +1,115 @@
+
+.navigator-box {
+  font-size: 100px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+
+  
+}
+.left-navi {
+
+width: 300px;
+}
+.middle-navi {
+  width: 300px;
+}
+.right-navi {
+width: 300px;
+}
+
+.right-button {
+  width: 100px;
+  height: 100px;
+  font-family: Roboto, Ariel;
+  font-size: 20px;
+  background-color: rgb(37, 42, 47);
+  color: rgb(173, 173, 173);
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border-radius: 125px;
+  margin-left: 100px;
+}
+
+.right-button:hover {
+  opacity: 0.7;
+}
+.right-button:active{
+  opacity: 0.4;
+}
+.left-button {
+  width: 100px;
+  height: 100px;
+  font-family: Roboto, Ariel;
+  font-size: 20px;
+  background-color: rgb(37, 42, 47);
+  color: rgb(173, 173, 173);
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border-radius: 125px;
+  margin-left: 100px;
+
+}
+.left-button .tooltip, .right-button .tooltip, .middle-button .tooltip {
+  position:absolute;
+  background-color: rgb(109, 109, 109);
+  height: 40px;
+  margin-top: 5px;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  bottom: -80px;
+  opacity: 0;
+  padding-top: 10px;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+.left-button,
+.right-button, 
+.middle-button{
+position:relative;
+}
+.left-button:hover .tooltip, 
+.right-button:hover .tooltip, 
+.middle-button .tooltip{
+opacity: 1;
+}
+.left-button:hover {
+  opacity: 0.7;
+}
+.left-button:active{
+  opacity: 0.4;
+}
+.middle-button {
+width: 300px;
+height: 300px;
+border-radius: 125px;
+height: 150px;
+font-family: Roboto, Ariel;
+font-size: 30px;
+background-color: rgb(37, 42, 47);
+color: rgb(173, 173, 173);
+border-style: solid;
+border-color: red;
+border-width: 2px;
+cursor: pointer;
+margin-bottom: 35px;
+transition: background-color 0.6s;
+}
+  
+.middle-button:hover {
+  opacity: 0.6;
+
+}
+.middle-button:active {
+  background-color: rgb(255, 54, 54);
+  color: rgb(37, 42, 47);
+}
