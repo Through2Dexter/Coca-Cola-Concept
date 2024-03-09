@@ -68,7 +68,6 @@ transition: opacity ease 250ms;
 .slide-nav a:hover {
   opacity: 100%;
 }
-
 .slider::-webkit-scrollbar {
   display: none;
 }
