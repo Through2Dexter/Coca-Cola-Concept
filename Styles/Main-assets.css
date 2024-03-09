@@ -13,7 +13,7 @@
   object-fit: contain;
   object-position: right;
   border-style: solid;
-  border-width: 3px;
+  border-width: px;
   border-color: rgb(255, 255, 255);
   margin-top: 100px;
 }
@@ -24,3 +24,4 @@
   align-items: center;
   margin-top: -100px;
 }
+

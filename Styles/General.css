@@ -8,6 +8,9 @@ body {
   margin: 0;
   background-color: rgb(37, 42, 47);
 }
+body:: background {
+opacity: 0.4;
+}
 .space {
   height: 400px;
 }
