@@ -1,5 +1,5 @@
 p {
-  font-family: Roboto, Ariel;
+  font-family: sans-serif;
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 10px;
@@ -8,7 +8,6 @@ body {
   margin: 0;
   background-color: rgb(37, 42, 47);
 }
-
 .space {
   height: 1000px;
 }
